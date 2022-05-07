@@ -1,0 +1,87 @@
+{% extends 'main.html' %}
+
+{% block content %}
+    <div class="calendar">
+        <div class="header">
+            <div class="year-month"></div>
+            <div class="nav">
+                <button id="prev-mon">&lt;</button>
+                <button id="nav-btn go-today">Today</button>
+                <button id="nav-btn go-next">&gt;</button>
+            </div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>일</th>
+                    <th>월</th>
+                    <th>화</th>
+                    <th>수</th>
+                    <th>목</th>
+                    <th>금</th>
+                    <th>토</th>
+                    <th>일</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-id="1주">
+                    <td>월</td> <!--해당하는 월의 가계부 내용을 db에 쿼리해서 내용 채우기-->
+                    <td>화</td>
+                    <td>수</td>
+                    <td>목</td>
+                    <td>금</td>
+                    <td>토</td>
+                    <td>일</td>
+                </tr>
+                <tr data-id="2주">
+                    <td>월</td>
+                    <td>화</td>
+                    <td>수</td>
+                    <td>목</td>
+                    <td>금</td>
+                    <td>토</td>
+                    <td>일</td>
+                </tr>
+                <tr data-id="3주">
+                    <td>월</td>
+                    <td>화</td>
+                    <td>수</td>
+                    <td>목</td>
+                    <td>금</td>
+                    <td>토</td>
+                    <td>일</td>
+                </tr>
+                <tr data-id="4주">
+                    <td>월</td>
+                    <td>화</td>
+                    <td>수</td>
+                    <td>목</td>
+                    <td>금</td>
+                    <td>토</td>
+                    <td>일</td>
+                </tr>
+                <tr data-id="5주">
+                    <td>월</td>
+                    <td>화</td>
+                    <td>수</td>
+                    <td>목</td>
+                    <td>금</td>
+                    <td>토</td>
+                    <td>일</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
+
+{% block script %}
+<script>
+    // document.querySelector('.year-month').textContent = `${viewYear}년 ${viewMonth + 1}월`;
+    document.querySelector('#prev-mon').addEventListener('submit', (e) => {
+        //지난 달 가계부 내용 DB에 쿼리해서 사용자에게 제공하도록
+    });
+    document.querySelector('#prev-mon').addEventListener('submit', (e) => {
+        //다음 달 가계부 내용 DB에 쿼리해서 사용자에게 제공하도록
+    });
+</script>
+{% endblock %}

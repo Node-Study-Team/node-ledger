@@ -1,0 +1,27 @@
+{
+  "name": "node-ledger",
+  "version": "0.0.1",
+  "main": "app.js",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "express": "^4.18.1",
+    "nunjucks": "^3.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PTU-Node/node-ledger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PTU-Node/node-ledger/issues"
+  },
+  "homepage": "https://github.com/PTU-Node/node-ledger#readme",
+  "description": ""
+}
