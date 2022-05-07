@@ -1,10 +1,11 @@
 # 추상구현체
 ## 시나리오
 - 메인 화면
-
+https://github.com/PTU-Node/node-ledger/blob/main/pics/1.png?raw=true
 - 메인 화면 중 한 날짜 클릭 시
-
+https://github.com/PTU-Node/node-ledger/blob/main/pics/2.png?raw=true
 - 날짜 클릭 화면에서 버튼 추가 시
+https://github.com/PTU-Node/node-ledger/blob/main/pics/3.png?raw=true
 
 ## 구현 방법
 - 메인 화면: Table 태그 -> 달력을 표로 만들어 관리
